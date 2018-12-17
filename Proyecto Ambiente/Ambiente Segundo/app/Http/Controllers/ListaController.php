@@ -38,7 +38,7 @@ class ListaController extends Controller
     {
 
         //this is gonna get the conexion from the database 
-        $conexion = new PDO("mysql:host=localhost;dbname=secondproject","root","");
+        $conexion = new PDO("mysql:host=localhost;dbname=proyecto","root","");
 
         $lista = new Lista();
         $idpro = $request->input("idproducto");
